@@ -13,6 +13,6 @@ public class ExampleController {
 	
 	@RequestMapping ("/execute")
 	public String execute (){
-		return restTemplate.getForObject("http://EUREKACLIENT2/serviceinfo", String.class);
+		return restTemplate.getForObject("http://EurekaClient2/serviceinfo", String.class);
 	}
 }
